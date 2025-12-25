@@ -311,11 +311,13 @@ export default function ClientsPage() {
                       >
                         <Edit size={18} />
                       </button>
-                      <button
-                        onClick={() => handleDelete(client.id)}
-                        className="text-red-600 hover:text-red-800"
-                        title="Supprimer&quot;
-                      >
+                     <button
+                      onClick={() => handleDelete(client.id)}
+                      className="text-red-600 hover:text-red-800"
+                      title="Supprimer"
+                    >
+                      <Trash2 size={18} />
+                    </button>
                         <Trash2 size={18} />
                       </button>
                     </>
@@ -782,6 +784,7 @@ export default function ClientsPage() {
     </div>
   );
 }
+
 
 
 
