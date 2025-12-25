@@ -282,13 +282,13 @@ export default function ClientsPage() {
                 <td className="px-6 py-4">{client.address || '-'}</td>
                 <td className="px-6 py-4 text-center">
                   <button
-                    onClick={() => openDocumentsModal(client)}
-                    className="inline-flex items-center gap-1 px-3 py-1.5 bg-purple-100 text-purple-700 rounded-lg hover:bg-purple-200 transition-colors"
-                    title="Voir les documents&quot;
-                  >
-                    <FileText size={16} />
-                    title="Voir les documents"
-                  </button>
+                      onClick={() => openDocumentsModal(client)}
+                      className="inline-flex items-center gap-1 px-3 py-1.5 bg-purple-100 text-purple-700 rounded-lg hover:bg-purple-200 transition-colors"
+                      title="Voir les documents"
+                    >
+                      <FileText size={16} />
+                      <span className="text-xs font-medium">Documents</span>
+                    </button>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
                   {isAdmin ? (
@@ -782,5 +782,6 @@ export default function ClientsPage() {
     </div>
   );
 }
+
 
 
