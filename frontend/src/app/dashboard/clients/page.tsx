@@ -296,8 +296,7 @@ export default function ClientsPage() {
                     <button
                       onClick={() => openViewModal(client)}
                       className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
-                      title="Voir les d?tails&quot;
-                    >
+                  title="Voir les détails" 
                       <Eye size={18} />
                       <span className="text-sm">Voir</span>
                     </button>
@@ -782,6 +781,7 @@ export default function ClientsPage() {
     </div>
   );
 }
+
 
 
 
