@@ -287,7 +287,7 @@ export default function ClientsPage() {
                     title="Voir les documents&quot;
                   >
                     <FileText size={16} />
-                    <span className="text-xs font-medium">Documents</span>
+                    title="Voir les documents"
                   </button>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
@@ -782,4 +782,5 @@ export default function ClientsPage() {
     </div>
   );
 }
+
 
